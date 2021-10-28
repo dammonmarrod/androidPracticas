@@ -13,3 +13,18 @@ http://www.developandsys.es/rellenar-recyclerview-con-json/#:~:text=volley
 ```
 http://www.floatrates.com/daily/eur.json
 ```
+
+
+### Requisitos previos: 📋
+
+_Para poder evaluar un dato en formato JSON lo primero es importar una librería que permita peticiones y parseos de este tipo. En este ejemplo se utilizará Volley_
+
+```
+implementation 'com.android.volley:volley:1.1.1'
+```
+
+_Adicionalmente en el fichero del manifestante se deben dar permisos de internet para poder realizar las peticiones correctamente_
+
+```
+<uses-permission android:name="android.permission.INTERNET"/>
+```
